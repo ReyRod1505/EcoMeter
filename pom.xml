@@ -15,6 +15,16 @@
     </properties>
 
     <dependencies>
+
+        <!-- Controlador JDBC para PostgreSQL -->
+
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.14</version>
+        </dependency>
+
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
